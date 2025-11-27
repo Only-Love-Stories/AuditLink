@@ -186,13 +186,13 @@ export async function POST(request: Request) {
       </div>
     `;
 
-    await resend.emails.send({
-      from: fromEmail,
-      to: toEmail,
-      reply_to: email,
-      subject,
-      html,
-    });
+   await resend.emails.send({
+  from: fromEmail,
+  to: toEmail,
+  replyTo: email,
+  subject,
+  html,
+});
 
     return NextResponse.json({ ok: true });
   } catch (error) {
