@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { CheckCircle2, ShieldCheck, BriefcaseBusiness, Globe2 } from "lucide-react";
+import { CheckCircle2, ShieldCheck, Briefcase, Globe2 } from "lucide-react";
 
 export default function HomePage() {
   return (
@@ -39,10 +39,10 @@ export default function HomePage() {
               <ShieldCheck className="h-4 w-4 text-emerald-600" />
               <span>ASIC, CPA, CA & SMSF auditors</span>
             </div>
-            <div className="flex items-center gap-2">
-              <BriefcaseBusiness className="h-4 w-4 text-emerald-600" />
-              <span>SME, NFP, AFSL & trust engagements</span>
-            </div>
+            <<div className="flex items-center gap-2">
+  <Briefcase className="h-4 w-4 text-emerald-600" />
+  <span>SME, NFP, AFSL & trust engagements</span>
+</div>
             <div className="flex items-center gap-2">
               <Globe2 className="h-4 w-4 text-emerald-600" />
               <span>Remote or on-site across Australia</span>
